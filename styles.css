@@ -64,9 +64,13 @@ p, h1, h2, h3, article, section {
     margin-left: 40px
 }
 
-.more_info > ul > li > a {
+section.more_info > ul > li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+section.more_info > ul > li > a {
     text-decoration: none;
-    padding-bottom: 10px;
     color: #1d7874;
 }
 
