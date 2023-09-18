@@ -1,0 +1,77 @@
+/* Overall Page */
+* {
+    background-color: #ffffff;
+    margin: 20px,
+}
+/* Header/Nav Bar*/
+header * {
+    background-color: #1d7874;
+    color: #ffffff;
+    height: 75px;
+    width: auto;
+}
+
+a.nav_links, a.website_title {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+a.website_title {
+    font-size: 30px;
+    float: left;
+}
+
+a.nav_links {
+    float: right;
+}
+
+/* Main Selection */
+
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h3 {
+    color: #1d7874;
+}
+
+h2 {
+    color: #192a51;
+    padding: 10px;
+}
+
+img.jason_mraz {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px
+}
+
+.artist_description {
+    font-size: 16px;
+}
+
+
+p, h1, h2, h3, article, section {
+    margin-right: 40px;
+    margin-left: 40px
+}
+
+.more_info > ul > li > a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: #1d7874;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
